@@ -1,0 +1,14 @@
+Escape::
+ExitApp
+Return
+
+#q::
+
+Send {TAB}{TAB}{TAB}{TAB}{TAB}{SPACE}{TAB}{TAB}{SPACE}{TAB}{TAB}{TAB}{TAB}{DOWN}
+Sleep 50
+
+loop 29
+{
+	Send {TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{SPACE}{TAB}{TAB}{SPACE}{TAB}{TAB}{TAB}{TAB}{DOWN}
+	Sleep 50
+}

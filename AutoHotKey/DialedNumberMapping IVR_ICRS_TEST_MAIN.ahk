@@ -1,0 +1,19 @@
+Escape::
+ExitApp
+Return
+
+#q::
+#Persistent
+
+Send,  255{TAB}{SPACE}{TAB}{TAB}{TAB}{TAB}{TAB}IVR_ICRS_TEST_MAIN{ENTER}
+
+Sleep 250
+
+loop 21
+{
+Send,  255{TAB}{TAB}{TAB}{TAB}{TAB}{DOWN}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{SPACE}{TAB}{TAB}{TAB}{TAB}{TAB}IVR_ICRS_TEST_MAIN{ENTER}
+Sleep 250
+}
+
+SoundBeep
+SoundBeep
